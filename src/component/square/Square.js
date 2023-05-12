@@ -2,7 +2,7 @@
 //import React
 import React from 'react';
 //import the styling for the square
-// import './Square.css';
+import './square.css';
 //create a functional component called Square that takes in props
 
 const Square = ({ value, onClick }) => (

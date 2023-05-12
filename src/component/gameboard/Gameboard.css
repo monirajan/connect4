@@ -1,4 +1,4 @@
-.Gameboard{
-    width: '200px';
-    margin: '20px auto';
-};
+.gameboard{
+    width: 100%;
+    height: 100%;
+}

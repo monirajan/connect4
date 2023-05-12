@@ -19,12 +19,12 @@ const Gameboard = ({ onClick }) => {
 return (
 //Create a 6 x 7 matrix using the map function inside the gameboard component
 <div className="gameboard">
-    {squares.map((row) => (
+    {squares.map((row,index) => (
         <>
         <div className='Row'>
             {
         row.map((square, i) => (
-        <Square key={i} value={square} onClick={() => onClick(i)} />
+        <Square key={index.toString()+i} value={square} onClick={() => onClick(i)} />
         ))}
         </div> 
         <br></br>
